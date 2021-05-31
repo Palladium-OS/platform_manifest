@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="palladium"
+           fetch="ssh://git@github.com/pd-temp" 
+           revision="11" />
+
+    <remote  name="github"
+           fetch="https://github.com/" />
+
+    <remote name="gitlab"
+          fetch="https://gitlab.com/" />   
+
+  <remote name="palladium-gitlab"
+          fetch="https://gitlab.com/palladiumos"
+          revision="11" />
+
+  <remote name="palladium-devices"
+          fetch="https://github.com/PalladiumOS-Devices"
+          revision="11" />
+
+  <!-- Device repos -->
+  <project path="device/palladium/sepolicy" name="platform_device_palladium_sepolicy" remote="palladium" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="palladium" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="palladium" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="palladium" />
+
+  <!-- External repos -->
+  <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="palladium" />
+  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="palladium" />
+  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="palladium" />
+  <project path="external/cpu_features" name="platform_external_cpu_features" remote="palladium" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="palladium-gitlab" />
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="palladium" />
+  <project path="external/libpng" name="platform_external_libpng" remote="palladium" />
+  <project path="external/selinux" name="platform_external_selinux" remote="palladium" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="palladium" />
+  <project path="external/zlib" name="platform_external_zlib" remote="palladium" />
+  <project path="external/libvpx" name="platform_external_libvpx" remote="palladium" />
+  <project path="external/libyuv" name="platform_external_libyuv" remote="palladium" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="palladium" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="palladium" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="palladium" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="palladium" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="palladium" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="palladium" />
+
+  <!-- General repos -->
+  <project path="art" name="platform_art" remote="palladium" />
+  <project path="bionic" name="platform_bionic" remote="palladium" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="palladium" />
+  <project path="build/make" name="platform_build" remote="palladium" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/blueprint" name="platform_build_blueprint" remote="palladium" />
+  <project path="build/soong" name="platform_build_soong" remote="palladium" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="platform_manifest" remote="palladium" />
+  <project path="vendor/support" name="platform_vendor_support" remote="palladium" />
+  <project path="vendor/palladium" name="platform_vendor_palladium" remote="palladium" />
+  <project path="vendor/palladium_molecules" name="platform_vendor_palladium_molecules" remote="palladium" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/palladium/interfaces" name="platform_hardware_palladium_interfaces" remote="palladium" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="palladium" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="palladium" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="palladium" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="palladium" />
+  <project path="packages/apps/EmergencyInfo" name="platform_packages_apps_EmergencyInfo" remote="palladium" />
+  <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="palladium" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="palladium" />
+  <project path="packages/apps/Lawnchair" name="platform_packages_apps_Lawnchair" remote="palladium" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="palladium" />
+  <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="palladium" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="palladium" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="palladium" />
+  <project path="packages/apps/SimpleDeviceConfig" name="platform_packages_apps_SimpleDeviceConfig" remote="palladium" />
+  <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="palladium" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="palladium" />
+  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="palladium" />
+  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="palladium" />
+  <project path="packages/apps/Atomichub" name="platform_packages_apps_Atomichub" remote="palladium" />
+
+  <!-- Prebuilt repos -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="palladium" clone-depth="1" />
+
+  <!-- Providers repos -->
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="palladium" />
+
+  <!-- Services repos -->
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="palladium" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="palladium" />
+
+  <!-- System repos -->
+  <project path="system/core" name="platform_system_core" remote="palladium" />
+  <project path="system/iorap" name="platform_system_iorap" remote="palladium" />
+  <project path="system/netd" name="platform_system_netd" remote="palladium" />
+  <project path="system/vold" name="platform_system_vold" remote="palladium" />
+
+</manifest>
