@@ -69,6 +69,7 @@
   <project path="vendor/support" name="platform_vendor_support" remote="palladium" />
   <project path="vendor/palladium" name="platform_vendor_palladium" remote="palladium" />
   <project path="vendor/palladium_molecules" name="platform_vendor_palladium_molecules" remote="palladium" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="palladium-gitlab" clone-depth="1" />
 
   <!-- Hardware repos -->
   <project path="hardware/palladium/interfaces" name="platform_hardware_palladium_interfaces" remote="palladium" />
@@ -77,6 +78,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="palladium" />
+  <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="palladium" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="palladium" />
   <project path="packages/apps/EmergencyInfo" name="platform_packages_apps_EmergencyInfo" remote="palladium" />
   <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="palladium" />
