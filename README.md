@@ -1,4 +1,4 @@
-![PalladiumOS](https://github.com/pd-temp/platform_manifest/blob/11/palladium.jpg)
+![PalladiumOS](https://github.com/Palladium-OS/platform_manifest/blob/11/palladium.jpg)
 
 ---------------------------------------------------------------------------------------
 Palladium OS
@@ -37,6 +37,7 @@ In order to build, use this command:
 
  * [**LineageOS**](https://github.com/LineageOS)
  * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**Project-Xtended**](https://github.com/Project-Xtended)
  * [**Project-Fluid**](https://github.com/Project-Fluid)
  * [**Project-Streak**](https://github.com/ProjectStreak)
  * [**ShapeShiftOS**](https://github.com/ShapeShiftOS)
