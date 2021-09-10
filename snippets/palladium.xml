@@ -94,6 +94,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="platform_packages_apps_SimpleDeviceConfig" remote="palladium" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="palladium" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="palladium" />
+  <project path="packages/apps/TouchGestures" name="platform_packages_apps_TouchGestures" remote="palladium" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="palladium" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="palladium" />
   <project path="packages/apps/Atomichub" name="platform_packages_apps_Atomichub" remote="palladium" />
