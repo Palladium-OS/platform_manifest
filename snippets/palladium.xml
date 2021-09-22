@@ -85,20 +85,24 @@
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="palladium" />
   <project path="packages/apps/EmergencyInfo" name="platform_packages_apps_EmergencyInfo" remote="palladium" />
   <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="palladium" />
+  <project path="packages/apps/GamingMode" name="platform_packages_apps_GamingMode" remote="palladium" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="palladium" />
   <project path="packages/apps/Lawnchair" name="platform_packages_apps_Lawnchair" remote="palladium" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="palladium" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="palladium" />
+   <project path="packages/apps/OmniJaws" name="platform_packages_apps_OmniJaws" remote="palladium" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="palladium" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="palladium" />
   <project path="packages/apps/SimpleDeviceConfig" name="platform_packages_apps_SimpleDeviceConfig" remote="palladium" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="palladium" />
+  <project path="packages/apps/SoftAPManager" name="platform_packages_apps_SoftAPManager" remote="palladium" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="palladium" />
   <project path="packages/apps/TouchGestures" name="platform_packages_apps_TouchGestures" remote="palladium" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="palladium" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="palladium" />
   <project path="packages/apps/Atomichub" name="platform_packages_apps_Atomichub" remote="palladium" />
   <project path="packages/apps/Plugins" name="platform_packages_apps_Plugins" remote="palladium" />
+  <project path="packages/modules/NetworkStack" name="platform_packages_modules_NetworkStack" remote="palladium" />
 
   <!-- Prebuilt repos -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
