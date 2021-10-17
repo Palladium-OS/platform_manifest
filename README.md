@@ -11,7 +11,7 @@ To initialize your local repository, run this command:
 ------------------------------------------------------
 
 ```bash
-   repo init -u git@github.com:pd-temp/platform_manifest.git -b 11
+   repo init -u https://github.com/Palladium-OS/platform_manifest.git -b 11
 ```
 
 Afterwards, sync the source by running this command:
