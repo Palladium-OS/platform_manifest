@@ -100,6 +100,6 @@
   <project path="vendor/palladium" name="platform_vendor_palladium" remote="palladium" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="palladium" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="palladium" />
-  <project path="vendor/gms" name="platform_vendor_gms" remote="palladium-gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="platform_vendor_gapps" remote="palladium-gitlab" clone-depth="1" />
 
 </manifest>
