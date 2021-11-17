@@ -102,6 +102,7 @@
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="palladium" />
 
   <!-- Vendor -->
+  <project path="vendor/lawnchair" name="platform_vendor_lawnchair" remote="palladium" />
   <project path="vendor/palladium" name="platform_vendor_palladium" remote="palladium" />
   <project path="vendor/support" name="platform_vendor_support" remote="palladium" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="palladium" />
