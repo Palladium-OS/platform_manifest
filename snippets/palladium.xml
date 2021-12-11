@@ -80,6 +80,7 @@
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="palladium" />
   <project path="packages/apps/Atomichub" name="platform_packages_apps_Atomichub" remote="palladium" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="palladium" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="palladium" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="palladium" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="palladium" />
   <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="palladium" />

@@ -93,6 +93,7 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
