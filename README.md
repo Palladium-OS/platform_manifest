@@ -1,4 +1,4 @@
-![PalladiumOS](https://github.com/Palladium-OS/platform_manifest/blob/11/palladium.jpg)
+![PalladiumOS](https://github.com/Palladium-OS/platform_manifest/blob/12/palladium.jpg)
 
 ---------------------------------------------------------------------------------------
 Palladium OS
