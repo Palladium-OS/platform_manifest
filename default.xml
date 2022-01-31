@@ -1104,4 +1104,9 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-</manifest>
+  <!-- Remove unused AOSP repos add all Palladium and Other ROM repos -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/palladium.xml" />
+  <include name="snippets/others.xml" />
+
+</manifest> 
