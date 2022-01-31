@@ -77,6 +77,7 @@
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="12.1-caf" remote="palladium" />
 
   <!-- Packages -->
+  <project path="packages/apps/Atomichub" name="platform_packages_apps_Atomichub" remote="palladium" />
   <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" remote="palladium" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="palladium" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="palladium" />
