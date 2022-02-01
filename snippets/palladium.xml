@@ -84,6 +84,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="palladium" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="palladium" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="palladium" />
+  <project path="packages/apps/GamingMode" name="platform_packages_apps_GamingMode" remote="palladium" />
   <project path="packages/apps/Jelly" name="platform_packages_apps_Jelly" remote="palladium" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="palladium" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="palladium" />
