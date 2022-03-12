@@ -78,6 +78,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Atomichub" name="platform_packages_apps_Atomichub" remote="palladium" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="palladium" />
   <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" remote="palladium" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="palladium" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="palladium" />
@@ -104,6 +105,7 @@
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="palladium" />
 
   <!-- System -->
+  <project path="system/bt" name="platform_system_bt" remote="palladium" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="palladium" />
   <project path="system/logging" name="platform_system_logging" groups="pdk" remote="palladium" />
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" groups="pdk" remote="palladium" />
@@ -117,6 +119,10 @@
   <project path="vendor/palladium" name="platform_vendor_palladium" remote="palladium" />
   <project path="vendor/support" name="platform_vendor_support" remote="palladium" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="palladium" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="palladium" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="palladium" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="palladium" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="palladium" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="palladium" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="palladium" />
   <project path="vendor/gms" name="platform_vendor_gms" remote="palladium-gitlab" clone-depth="1" />
