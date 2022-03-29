@@ -76,6 +76,9 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="palladium" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="12.1-caf" remote="palladium" />
 
+  <!-- Infrastructure -->
+  <project path="official-devices" name="official_devices" remote="palladium" />
+
   <!-- Packages -->
   <project path="packages/apps/Atomichub" name="platform_packages_apps_Atomichub" remote="palladium" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="palladium" />
