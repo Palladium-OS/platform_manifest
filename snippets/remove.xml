@@ -51,6 +51,9 @@
   <remove-project name="device/google/tangorpro-kernel" />
   <remove-project name="device/google/tangorpro-sepolicy" />
 
+  <!-- External -->
+  <remove-project name="platform/external/gptfdisk" />
+
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />

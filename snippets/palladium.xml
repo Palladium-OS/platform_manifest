@@ -29,6 +29,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External -->
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk" remote="palladium" />
+
   <!-- Framework repos -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="palladium" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="palladium" />
