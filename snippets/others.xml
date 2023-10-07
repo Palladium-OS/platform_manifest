@@ -5,7 +5,6 @@
            revision="lineage-20.0" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="LineageOS" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="LineageOS" />
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="LineageOS" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="LineageOS" />
