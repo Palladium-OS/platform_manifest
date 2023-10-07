@@ -31,6 +31,7 @@
 
   <!-- External -->
   <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk" remote="palladium" />
+  <project path="external/mksh" name="platform_external_mksh" groups="pdk" remote="palladium" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="palladium" />
