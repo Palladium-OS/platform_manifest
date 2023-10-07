@@ -40,6 +40,7 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="palladium" />
  
    <!-- Hardware -->
+  <project path="hardware/google/pixel" name="platform_hardware_google_pixel" remote="palladium" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="palladium" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="palladium" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="palladium" />
