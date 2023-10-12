@@ -31,6 +31,7 @@
 
   <!-- External -->
   <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk" remote="palladium" />
+  <project path="external/libnl" name="platform_external_libnl" groups="pdk" remote="palladium" />
   <project path="external/mksh" name="platform_external_mksh" groups="pdk" remote="palladium" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="palladium" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
@@ -45,6 +46,7 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="palladium" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="palladium" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="palladium" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="palladium" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="palladium" />

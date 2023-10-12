@@ -53,6 +53,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
 
@@ -74,6 +75,7 @@
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
