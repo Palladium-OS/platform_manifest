@@ -40,6 +40,7 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="palladium" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="palladium" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="palladium" />
+  <project path="frameworks/libs/net" name="platform_frameworks_libs_net" remote="palladium" />
  
    <!-- Hardware -->
   <project path="hardware/google/pixel" name="platform_hardware_google_pixel" remote="palladium" />
@@ -50,14 +51,19 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="palladium" />
+  <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="palladium" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="palladium" />
 
   <!-- System repos -->
+  <project path="system/bpf" name="platform_system_bpf" groups="pdk" remote="palladium" />
   <project path="system/core" name="platform_system_core" remote="palladium" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="palladium" />
+  <project path="system/security" name="platform_system_security" groups="pdk" remote="palladium" />
   <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" groups="pdk" remote="palladium" />
- 
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="palladium" />
+
   <!-- Vendor repos -->
   <project path="vendor/palladium" name="platform_vendor_palladium" remote="palladium" />
 
