@@ -4,6 +4,10 @@
            fetch="ssh://git@github.com/Palladium-u" 
            revision="14" />
 
+  <remote  name="palladium-gitlab"
+           revision="14"
+           fetch="https://gitlab.com/palladiumos/" />
+
     <remote  name="github"
            fetch="https://github.com/" />
 
@@ -73,6 +77,7 @@
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="palladium" />
 
   <!-- Vendor repos -->
+  <project path="vendor/gms" name="platform_vendor_gms" remote="palladium-gitlab" clone-depth="1" />
   <project path="vendor/palladium" name="platform_vendor_palladium" remote="palladium" />
 
 </manifest>
