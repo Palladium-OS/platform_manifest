@@ -29,6 +29,14 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/palladium/sepolicy" name="platform_device_palladium_sepolicy" remote="palladium" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,qssi" remote="palladium" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,sdm660" remote="palladium" revision="14-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="palladium" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="palladium" revision="14-legacy-um" />
+
+
   <!-- External -->
   <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk" remote="palladium" />
   <project path="external/libnl" name="platform_external_libnl" groups="pdk" remote="palladium" />
