@@ -62,6 +62,7 @@
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="palladium" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="palladium" />
   <project path="packages/apps/RepainterServicePriv" name="platform_packages_apps_RepainterServicePriv" groups="pdk" remote="palladium" />  
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="palladium" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="palladium" />
