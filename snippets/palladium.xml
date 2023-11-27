@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="palladium"
-           fetch="ssh://git@github.com/Palladium-u" 
+           fetch="https://github.com/Palladium-OS" 
            revision="14" />
 
   <remote  name="palladium-gitlab"
@@ -12,7 +12,11 @@
            fetch="https://github.com/" />
 
     <remote name="gitlab"
-          fetch="https://gitlab.com/" />   
+          fetch="https://gitlab.com/" />  
+
+    <remote name="palladium-devices"
+          fetch="https://github.com/PalladiumOS-Devices"
+          revision="12.1" /> 
 
   <!-- General repos -->
   <project path="art" name="platform_art" remote="palladium" />
